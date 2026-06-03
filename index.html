@@ -8,6 +8,32 @@
     content:"";
     position:fixed;
     inset:0;
+            body::before{
+    content:"";
+    position:fixed;
+    inset:0;
+
+    background-image:url("MJTP08B4.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:50%;
+
+    opacity:0.05;
+
+    animation: drift 30s ease-in-out infinite alternate;
+
+    pointer-events:none;
+    z-index:-1;
+}
+
+@keyframes drift{
+    from{
+        transform:translateY(-10px);
+    }
+    to{
+        transform:translateY(10px);
+    }
+}
 
   background-image:url("MJTP08B4.jpg");
     background-repeat:no-repeat;
