@@ -1,2 +1,2 @@
 # indybisht.github.io
-Writer, director, maker of worlds
+Writer, director, Maker of Worlds
